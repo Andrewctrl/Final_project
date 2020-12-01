@@ -1,14 +1,13 @@
 #Choose your own Adventure
 print ("You wake up to a chilly Saturday morning shivering in your blankets, the alarm starts ringing. Do you get out of bed or stay?")
 answer = input("Yes or No? ")
-if answer_1 == "yes":
+if answer == "yes":
     print("You get out of bed and prepare a breakfast of instant noodles with the carton of milk you saved from yesterday’s school lunch")
-    answer = input("You also get a text from mother, do you look?")
+    answer = input("You also get a text from mother, do you look? ")
     if(answer == "yes"):
         print("blah") #result of choice
         answer = input("") #subsequent question
-        if:
-
+        # if:
 else:
     print("You continue to sleep and drift off into your dreams")
     #while  == "yes":
