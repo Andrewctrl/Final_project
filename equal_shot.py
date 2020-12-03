@@ -3,3 +3,5 @@ def chosen():
     answer = input("do you go and take over or not?") #subsequent question
     if(answer == "yes"):
         print("Sure, mom I'll see if can come by today and take over the business")
+    if(answer == "no"):
+        print("You get dressed up quicky as you rush out to visit your mom in the hospital. ")
