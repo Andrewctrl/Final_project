@@ -1,4 +1,5 @@
 import equal_shot
+import Visting_Mom
 
 def chose_yes():
     print("You ignore the text that your mom has sent, and spend the rest of the morning studying for Monday’s test and playing Clash Royale on your phone. As lunch edges closer, your mom has become increasingly worried and texts you again. This time she says, “Dolores, I’m worried about you. My terminal pancreatic cancer has metastasized and in a few days, I’ll no longer be with you to guide you. I’m sorry that I could not provide you a childhood you so longed for.” ")
@@ -6,4 +7,4 @@ def chose_yes():
     if(answer == "yes"): # eqaul shot for edu 
         equal_shot.chosen()
     if(answer == "no"): # visting mom 
-        print("You get dressed up quciky as you rush out to visit your mom in the hospital ") 
+        Visting_Mom.choice() 

@@ -1,7 +1,7 @@
 def chosen():
-    print("You continue to study until the afternoon, losing sense of time as you get caught up in quadratics and logarithms") #result of choice
-    answer = input("do you go and take over or not?") #subsequent question
+    print("You continue to study until the afternoon, losing sense of time as you get caught up in quadratics and logarithms" + "You study and ace the math quiz. But you find out that you are getting evicted.") #result of choice
+    answer = input("Do you take out the ice cream cart that your mom uses or do you continue studying?" + "Type \"Yes\" for studying, \"No\" for taking the ice cream cart out") #subsequent question
     if(answer == "yes"):
-        print("Sure, mom I'll see if can come by today and take over the business")
+        print("You continue to study, but you get evicted. You live with your relatives and start taking out your mom’s ice cream court on a part time basis. You get your old place back and you maintain a 3.75 gpa and get into your Dream College, Stanford. It was a hard and rocky road, you faced a lot of adversities, but it finally paid off. Many students have to provide and study for their families. Many also face the problems like eviction or not having enough money for food. You can help by donating to orgs like feeding america. Thank you for looking into our project and have a good day. ")
     if(answer == "no"):
-        print("You get dressed up quicky as you rush out to visit your mom in the hospital. ")
+        print("You take out the ice cream cart. And you continue to study after school and take out the ice cream cart on a part time basis. You avoid getting evicted. You maintain a 3.75 gpa and get into your Dream College, Stanford. It was a hard and rocky road, you faced a lot of adversities, but it finally paid off. Many students have to provide and study for their families. Many also face the problems like eviction or not having enough money for food. You can help, you can start by donating to orgs like feeding america. Thank you for looking into our project and have a good day. ")
