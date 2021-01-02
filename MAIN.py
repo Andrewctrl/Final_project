@@ -9,6 +9,6 @@ if answer == "Yes":
     alpha.chose_yes()
 if answer == "No": # visting mom
     beta.chose_no() 
-    
+
 
 
